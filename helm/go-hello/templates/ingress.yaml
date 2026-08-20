@@ -16,3 +16,7 @@ spec:
                 name: go-hello
                 port:
                   number: 80
+  tls:
+  - hosts:
+    - go.shash.com
+    secretName: go-hello-tls-secret
